@@ -12,7 +12,7 @@ class LogSettings:
 
 @dataclass
 class Config:
-    tgbot: TgBot
+    bot: TgBot
     log: LogSettings
 
 def load_config(path: str | None = None) -> Config:
