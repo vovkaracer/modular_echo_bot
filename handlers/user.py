@@ -1,5 +1,5 @@
 from aiogram import Router
-from aiogram.type import Message
+from aiogram.types import Message
 from aiogram.filters import Command, CommandStart
 from lexicon.lexicon import LEXICON_RU
 
